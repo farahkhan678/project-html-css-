@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: #fa6e88;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .nav_bar {
+    flex-direction: column;
+    font-size: 12px;
+    height: 20%;
+    padding: 5px;
+  }
+}
+.item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav_img {
+  height: 20px;
+  width: 30px;
+}
+.cont_lorem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, #f2f2a5, #ed6671);
+}
+.cont_lorem_2 {
+  flex-direction: column;
+  margin: 40px;
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .cont_lorem {
+    flex-direction: row;
+  }
+}
+.lorem_head {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+  .lorem_head {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+.lorem_para {
+  font-size: 22px;
+}
+@media (max-width: 768px) {
+  .lorem_para {
+    font-size: 14px;
+  }
+}
+.img_lorem {
+  height: 100vh;
+  width: 100%;
+}
+
+.lorem_button {
+  border: none;
+  background-color: #ed6671;
+  color: white;
+  width: 190px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .lorem_button {
+    width: 100px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+}
+.section_lorem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right);
+}
+.section_2_img {
+  display: flex;
+  flex-direction: column;
+}
+.img_1 {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.img_2 {
+  height: 200px;
+  width: 200px;
+}
+.img_3 {
+  margin: 10px;
+  height: 400px;
+  width: 200px;
+}
+.section_2_img {
+  display: flex;
+  flex-direction: column;
+}
+.section_lorem_last {
+  background-color: #ed6671;
+  margin-left: 30px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.section_para {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.section_head {
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+  margin-bottom: 20px;
+  width: 400px;
+}
+.section_button {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+.section_button_img {
+  height: 20px;
+  width: 30px;
+}
